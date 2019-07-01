@@ -177,3 +177,106 @@ body{
     order: 1;
     margin-right: 25px;
 }
+
+.topbox{
+    position: absolute;
+    width: 100%;
+    top: 25px;
+}
+.undertb{
+    position: absolute;
+    width:100%;
+    top: 75px;
+    left: -1px;
+    border: 1px solid gray;
+}
+.rsnb{
+    position: absolute;
+    top: 125px;
+    left: 170px;
+    font-size: small;
+    color: rgb(150, 150, 150);
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+#logobox{
+    position: absolute;
+    margin-left: 25px;
+}
+.sbs{
+    position: absolute;
+    margin-left: 150px;
+}
+.tbs{
+    border-radius: 25px;
+    border: 1px solid rgba(150, 150, 150, 0.3);
+    padding: 15px;
+    width: 600px;
+    height: 10px;
+}
+
+.tbs:hover{
+    box-shadow: 0px 1px 3px 2px rgba(140, 140, 140, 0.3);
+}
+.tbs:focus{
+    box-shadow: 0px 1px 3px 2px rgba(140, 140, 140, 0.3);
+}
+
+#tr-search{
+    margin-right:25px;
+}
+.snb{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+    text-decoration:none;
+    margin-left:140px;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.nalinks{
+    text-decoration:none;
+    color:  rgb(121, 121, 121);
+}
+.nalinks:hover{
+    color:rgb(79, 156, 207);
+}
+.nabar{
+    display:inline-block;
+    margin-left:35px;
+    font-size:14px;
+}
+
+.resbox{
+    position: absolute;
+    border: 1px red dotted;
+    width: 100%;
+    top: 200px;
+    left: -5px;
+    font-size:small;
+}
+.reslt{
+    position: relative;
+    left: 180px;
+    white-space: nowrap !important;
+    overflow:hidden !important;
+}
+.reslt h1{
+    font-size: large;
+}
+.rlts{
+    position: relative;
+    left:100px;
+
+}
+.grnlink{
+    color: rgb(0, 128, 28);
+}
+.mainlnks{
+    text-decoration: none;
+}
+.mainlnks:hover{
+    text-decoration: underline;
+}
